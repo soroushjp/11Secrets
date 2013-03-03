@@ -1,0 +1,91 @@
+
+/**
+ * Grid container
+ */
+
+a {
+text-decoration: none;	
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+#tiles {
+list-style-type: none;
+position: relative; /** Needed to ensure items are laid out relative to this container **/
+margin: 0;
+z-index:0;
+}
+
+/**
+ * Grid items
+ */
+#tiles li {
+width: 260px;
+background-color: white;
+display: none; /** Hide items initially to avoid a flicker effect **/
+padding: 0;
+box-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+-moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.6);
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+#tiles a:hover {
+	color:#444;
+}
+
+#tiles li img {
+display: block;
+}
+
+/**
+ * Grid item text
+ */
+#tiles li p {
+color: #666;
+font-size: 12px;
+margin: 7px 0 0 7px;
+}
+
+/**
+ * Some extra styles to randomize heights of grid items.
+ */
+#tiles ali:nth-child(3n) {
+height: 175px;
+}
+
+#tiles ali:nth-child(4n-3) {
+padding-bottom: 30px;
+}
+
+#tiles ali:nth-child(5n) {
+height: 250px;
+}
+
+/** General page styling **/
+  
+html {
+background: white url("/resources/images/bg/background_9_s2.jpg") repeat;
+}
+
+#main {
+padding: 20px 0 30px 0;
+}
+
+header h1 {
+text-align: center;
+font-size: 24px;
+font-weight: normal;
+margin: 30px 0 3px 0;
+}
+
+header p {
+text-align: center;
+font-size: 13px;
+color: #777;
+margin: 0;
+}

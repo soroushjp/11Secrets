@@ -1,0 +1,117 @@
+/* control panel css */
+
+div.panel_container {
+	background-color: 
+	white;
+	width: 960px;
+	height: 1200px;
+	margin: auto;
+	margin-top: 20px;
+	border: solid 1px #BBB;
+}
+
+div.panel_header {
+	height:150px;
+	width:960px;
+	float:left;
+}
+
+div.panel_title {
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+	height: 40px;
+	width: 960px;
+	float: left;
+	margin-top: 10px;
+	color: #444;
+}
+
+div.panel_box {
+	background-color: #DDD;
+	width: 285px;
+	height: 180px;
+	float: left;
+	margin: 15px;
+}
+
+div.box_title {
+	width:285px;
+	height:15px;
+	color:#333;
+	text-align:center;
+	margin-top:5px;
+	font-size:15px;
+	font-weight:bold;
+	float:right;
+	text-decoration:underline;
+}
+
+div.box_contents {
+	width:285px;
+	height:120px;
+	float:right;
+}
+
+div.content_row {
+	width:275px;
+	height:20px;
+	float:right;
+	margin-left:10px;
+	margin-top:10px;
+	font-size:13px;
+}
+
+span.row_name {
+	font-weight:bold;
+}
+
+/* css from previous CP */
+
+.filters {
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 900px;
+	height: 85px;
+	float: left;
+}
+
+.filter_fields {
+	width: 900px;
+	height: 62px;
+	float: left;
+}
+
+.campaign_filter {
+	float: left;
+	width: 950px;
+	height: 35px;
+}
+
+.date_filter {
+	float: left;
+	width: 538px;
+	height: 30px;
+}
+
+.date_title {
+	float: left;
+	padding-right: 10px;
+}
+
+input[type=text] {
+	width:115px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid 
+	#CCC;
+	margin: 1em 0;
+	padding: 0;
+	width: 931px;
+	margin: auto;
+}

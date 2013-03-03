@@ -1,0 +1,106 @@
+div#iframecontainer {
+	position:absolute;
+	top: 63px;
+	bottom: 0px;
+	background: white;
+	width: 100%;
+}
+
+iframe.site_iframe {
+	height:100% !important;
+	width: 100% !important;
+	margin:0
+	padding: 0;
+	border: none;
+	background: white;
+}
+
+div.displayed {
+	display: inline !important;
+}
+
+div#next_article_btn {
+	background: url('/resources/images/buttons/stumble.png') no-repeat scroll 0 0 transparent;
+	float: left;
+	width: 100px;
+	height: 36px;
+	margin-top: 15px;
+	margin-right: 10px;
+	display: inline;
+	cursor:pointer;
+}
+
+div#next_article_btn:hover {
+	background-position:bottom;
+}
+
+a.next_article {
+	display: inline;
+	float: right;
+}
+
+div#reveal_btn {
+	background: url('/resources/images/buttons/reveal.png') no-repeat scroll 0 0 transparent;
+	float: left;
+	width: 90px;
+	height: 36px;
+	display: inline;
+	margin-top: 5px;
+}
+
+div#reveal_btn:hover {
+	background-position: bottom;
+}
+
+
+div.lift:hover {
+	background-position: bottom;
+}
+
+a.reveal_link {
+	display: inline;
+	float: left;
+}
+
+div.lift {
+	background: url('/resources/images/buttons/keep.png') no-repeat scroll 0 0 transparent;
+	float: left;
+	width: 84px;
+	height: 36px;
+	display: inline;
+	margin-left:5px;
+	margin-top: 5px;
+}
+
+div.lifted {
+	background: url('../../images/buttons/kept.png') no-repeat scroll 0 0 transparent;
+	width: 84px;
+	height: 36px;
+	color: white;
+	float:left;
+	margin-left:5px;
+	margin-top:5px;
+}
+
+a.keep_link {
+	display: inline;
+	float: left;
+}
+
+#back_wall {
+background: url('../../images/buttons/back_to_wall2.png') no-repeat scroll 0 0 transparent;
+float: left;
+width: 150px;
+height: 34px;
+margin-top: 15px !important;
+margin-left: 30px;
+display: none;
+}
+
+.original_source {
+	width: 245px;
+	height: 20px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 18px;
+}

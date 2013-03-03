@@ -1,0 +1,36 @@
+div.uploadavatar p {
+	margin: 1em 0;
+}
+div.uploadavatar h1 {
+	text-align: left;
+	margin: 0px 0 20px 0px;
+	font-size: 23px;
+	color: #333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.uploadavatar div#upload_box {
+	width: 475px;	
+}
+div.uploadavatar div#profile_image {
+	float:left;
+	width: 160px;
+}
+div.uploadavatar div#upload_info {
+	float: left;
+	width: 240px;
+}
+div.uploadavatar span.upload_message {
+	font-weight:bold;
+}
+div.uploadavatar input.file_input {
+	margin: 10px 0 10px 15px;
+	width: 190px;
+	border: solid thin #BBB;
+	height: 20px;
+	padding: 8px;
+	font-size: 14px;
+}
+div.uploadavatar input.input_submit {
+	font-size: 20px;
+	margin: 10px auto 0;
+}

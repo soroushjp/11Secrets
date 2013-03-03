@@ -1,0 +1,88 @@
+div#login_window {
+		width: 331px;
+		height: 303px;
+		margin: auto;
+		background-color:white;
+		margin-top: 28px;
+	} 
+	
+	
+	div.login_message {
+		font-family: 'Rouge Script', cursive;
+	    font-size: 45px;
+	    color: #561a1a;
+		margin-bottom: 26px;
+		width: 100%;
+		height: 55px;
+		float:left;
+	}
+
+	
+	div.form_field {
+		width: 100%;
+		height: 35px;
+		float:left;
+		font-size:24px;
+		padding-top: 6px;
+	}
+	
+	div.form_or {
+		width: 100%;
+		height: 20px;
+		float: left;
+		font-size: 19px;
+		padding-top: 20px;
+		padding-bottom: 11px;
+		color: #777;
+		font-weight: normal;
+	}
+	
+	input {
+		color:#999;
+		height: 21px;
+		width: 168px;
+		font-size: 18px;
+}
+	
+	div.submit_button {
+		width: 100%;
+		height:40px;
+		float:left;
+		padding-top: 10px;
+	}
+	
+	#submit_button {
+		width: 200px;
+		height: 45px;
+		font-size: 21px;
+		font-weight: normal;
+	}
+	
+	.error {
+		font-size: 14px;
+		color:#9F1515;
+		width: 310px;
+		height: 30px;
+		float: left;
+		padding-top: 30px;
+		padding-left: 12px;
+		padding-bottom: 36px;
+		padding-right: 10px;
+	}
+	
+	.facebook_connect {
+		padding-bottom: 15px;
+	}
+	
+	.login_link {
+		font-size: 14px;
+		color: #9F1515;
+		width: 314px;
+		height: 15px;
+		float: left;
+		text-align:left;
+	}
+
+	.login_link a {
+		color:#072F8C;
+	}

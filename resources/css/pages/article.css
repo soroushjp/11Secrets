@@ -1,0 +1,381 @@
+div.articlePopup {
+	width: 544px;
+}
+
+	div.article_window {
+		width: 580px;
+		height:520px;
+		float:left;
+		margin-left: 28px;
+		padding-top: 25px;
+	}
+	
+	div.article_cont {
+		width:488px;
+		height:300px;
+	}
+	
+	div.article_cont div.article_header {
+		float: left;
+		width: 486px;
+		margin-bottom: 5px;
+		background-color: #FEF4F4;
+		border: solid 1px #BBB;
+		border-bottom: none;
+		height: 220px;
+	}
+	
+	div.article_cont div.article_title {
+		font-size: 21px;
+		float: left;
+		color: 
+		#555;
+		width: 480px;
+		text-align: left;
+		font-weight: 551;
+	}
+
+	div.article_cont div.title {
+		width: 476px;
+		float: left;
+		font-family: Helvetica, sans-serif;
+		text-align: center;
+		padding-top: 4px;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-bottom: 5px;
+	}
+	
+	div.article_main {
+		background:url('/resources/images/main/pink-backdrop.png') no-repeat;
+		width:488px;
+		height:279px;
+		float:left;
+		margin-left: -1px;
+	}
+	
+	div.article_content {
+		width:276px;
+		height:250px;
+		float:left;
+		padding-left: 53px;
+		padding-top:10px;
+	}
+	
+	
+	div.article_image {
+		width:260px;
+		height:146px;
+		float:left;
+		padding: 15px;
+		padding-bottom: 3px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	div.article_read_btn {
+		background:url('/resources/images/buttons/readArticle.png') no-repeat;
+		width:264px;
+		height:77px;
+		float:left;
+		margin-left: 12px;
+		margin-top: 10px;
+	}
+	
+	div.article_read_btn:hover {
+		background-position:bottom;
+	}
+	
+	div.article_share {
+		width: 155px;
+		height:250px;
+		float:right;
+		padding-top: 10px;
+	}
+	
+	div.article_external_share {
+		width: 178px;
+		height: 152px;
+		float: left;
+		padding-top: 15px;
+	}
+	
+	div.article_external_share div.tweet_button {
+		height: 32px;
+		float: left;
+		padding-left: 11px;
+		padding-top: 6px;
+	}
+
+	div.article_external_share div.googleplus_button {
+		height: 24px;
+		float:left;
+		padding-left: 11px;
+	}
+
+	div.googleplus_button div {
+		width: 67px !important;
+	}
+
+	div.article_external_share div.facebook_button {
+		height: 24px;
+		width: 173px;
+		float: left;
+		text-align: left;
+		padding-left: 10px;
+	}
+	
+	div.permalink {
+		width: 104px;
+		height: 22px;
+		float: left;
+	}
+
+	div.link_button {
+		background: url('/resources/images/buttons/link.png') no-repeat scroll 0 0 
+		transparent;
+		width: 56px;
+		height: 22px;
+		float: left;
+		margin-left: 11px;
+		margin-top: 8px;
+	}
+
+	div#link-box {
+		width: 335px;
+		height: 0px;
+		z-index: 100;
+		position: absolute;
+		top: 38%;
+		left: 372px;
+		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		font-family: arial;
+	}
+
+	div.link_deco {
+		border-radius: 0 0 5px 5px;
+		-moz-border-radius: 0 0 5px 5px;
+		-webkit-border-radius: 0 0 5px 5px;
+		background-color: #DDEEF6;
+		border: solid 1px #888;
+		text-align: left;
+		padding: 12px;
+		margin-top: 0px;
+		margin-right: 0px;
+		color: #444;
+		font-size: 14px;
+		font-weight:bold;
+	}
+	
+	div.article_internal_share {
+		width: 100px;
+		height: 77px;
+		float: left;
+		margin-top: 10px;
+	}
+	
+	div.relift_button {
+		background: url('/resources/images/buttons/keep.png') no-repeat;
+		width: 86px;
+		height: 34px;
+		margin-left: 10px;
+		cursor:pointer;
+	}
+	
+	div.relift_button:hover {
+		background-position:bottom;
+	}
+	
+
+	div.down_button {
+		background: url('/resources/images/buttons/kept.png') no-repeat;
+		width: 86px;
+		height: 34px;
+		margin-left: 10px;
+		cursor:pointer;
+	}
+	
+	div.reveal_article {
+		background: url('/resources/images/buttons/reveal.png') no-repeat;
+		width: 90px;
+		height: 36px;
+		margin-left: 6px;
+		cursor:pointer;
+	}
+	
+	div.reveal_article:hover {
+		background-position:bottom;
+	}
+	
+	div.article_lower {
+		width:488px;
+		height:150px;
+		float:left;
+		padding-top: 15px;
+	}
+	
+	/* Comment styling */
+
+	div#more_comments {
+		height: 23px;
+		width: 228px;
+		text-align: center;
+		line-height: 2;
+		color: #888;
+		font-weight: bold;
+		font-size: 12px;
+	}
+
+	div.article_discussion {
+		width: 190px;
+		height: 170px;
+		float: right;
+		text-align: left;
+	}
+	
+	div.comment_title {
+		font-size:14px;
+		font-weight:bold;
+		width:255px;
+		height:20px;
+		float:left;
+	}
+
+	div.article_discussion div.comments {
+		width: 190px;
+		float: right;
+		margin-left: 5px;
+		overflow-y: auto;
+		overflow-x: hidden;
+		height: 120px;
+	}
+
+	div.article_discussion div.comment {
+		width: 180px;
+		min-height:42px;
+		padding-top: 0px;
+		border-bottom-style:solid;
+		border-bottom-width:1px;
+		border-bottom-color:#bfbdbd;
+		clear: both;
+		padding-top: 5px;
+	}
+
+	div.article_discussion div#commentbox {
+		width: 180px;
+		min-height: 42px;
+		padding-top: 5px;
+	}
+
+	div.article_discussion div.comment:last-child {
+		border:none;
+	}
+
+	div.article_discussion div.all_comments {
+		width: 290px;
+		height: 25px;
+		float: left;
+		text-align: center;
+		font-weight: bold;
+		padding-top: 9px;
+		font-size: 12px;
+	}
+
+	div.article_discussion div.user_thumb {
+		width:30px;
+		height:30px;
+		float:left;
+		padding:3px;
+	}
+
+	div.article_discussion div.user_comment a {
+		color: #333;
+	}
+
+	div.article_discussion div.user_comment {
+		width: 144px;
+		min-height: 42px;
+		float: left;
+		color: #333;
+		text-align: left;
+		padding-bottom: 0px;
+		position: relative;
+	}
+
+	div.article_discussion span.user_name {
+		font-size:11px;
+		font-weight:bold;
+	}
+
+	div.article_discussion div.user_quote {
+		font-size:12px;
+		padding-left: 3px;
+		padding-top: 3px;
+		float: left;
+	}
+
+	div.article_discussion #comment_field {
+		height: 24px;
+		font-size: 14px;
+		width: 209px;
+		color: #AAA;
+		border-color: #DDD;
+	}
+
+	div.article_discussion textarea.comment_field {
+	height: 24px;
+	font-size: 14px;
+	width: 134px;
+	color: #AAA;
+	border-color: #DDD;
+	float: left;
+	}
+	
+	div.article_excerpt {
+		width: 270px;
+		height:170px;
+		float:left;
+		text-align:left;
+	}
+	
+	div.excerpt_title {
+		font-size:14px;
+		font-weight:bold;
+		width:255px;
+		height:20px;
+		float:left;
+	}
+	
+	div.article_divider {
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: #BFBDBD;
+		width:245px;
+		height:2px;
+		float:left;
+	}
+	
+	div.excerpt_text {
+		font-size: 12px;
+		color:#656464;
+		width: 245px;
+		height: 104px;
+		float: left;
+		line-height: 1.4em;
+		padding-top: 5px;
+		padding-left: 12px;
+		overflow: auto;
+	}
+	
+	div.read_full_link {
+		font-weight: bold;
+		font-size: 12px;
+		width: 200px;
+		height: 20px;
+		float: left;
+		padding-left: 12px;
+		color:#656464;
+		padding-top:4px;
+	}

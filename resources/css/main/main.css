@@ -1,0 +1,210 @@
+/* Main Styling */
+
+body {
+	margin:0px;
+	padding:0px;
+	width:100%;
+	font-family: arial, sans-serif;
+}
+
+textarea {
+	resize: none;
+}
+
+/* Button Styling */
+
+.awesome, .awesome:visited {
+	background: #222 url('../../images/main/alert-overlay.png') repeat-x;
+	display: inline-block !important;
+	padding: 5px 10px 6px;
+	color: white;
+	text-decoration: none !important;
+	border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	-webkit-border-radius: 5px !important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25) !important;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+	position: relative;
+	cursor: pointer;
+	border:none;
+}
+
+.blue.awesome, .blue.awesome:visited {
+	background-color: #2462BE;
+}
+
+.large.awesome, .large.awesome:visited {
+	font-size: 14px;
+	padding: 7px 15px 9px;
+text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.awesome, .awesome:visited, .medium.awesome, .medium.awesome:visited {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.orange.button {
+	background: -moz-linear-gradient(center bottom, #FF9009 22%, #FA4 81%);
+	background: -webkit-gradient(linear,left bottom, left top, color-stop(0.22, #FF9009), color-stop(0.81, #FA4));
+	background: -moz-linear-gradient(center bottom, #FF9009 22%, #FA4 81%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#ffaa44, endColorStr=#ff9009);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffaa44, endColorstr=#ff9009)";
+}
+
+/* Popup box styling */
+
+
+#video_overlay {
+	position: fixed;
+	border: 15px solid white;
+	-webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.3);
+	background: white;
+	z-index: 100;
+	display: none;
+	text-align: center;
+}
+
+a.button {
+	display: inline-block;
+	font-family: "HelveticaNeue-Bold", "HelveticaNeue", Helvetica, Arial, Sans-serif;
+	font-weight: bold;
+	color: white;
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+	text-decoration: none;
+	white-space: nowrap;
+	cursor:pointer;
+	
+}
+
+#video_overlay .close {
+	position: absolute;
+	background: url('../../images/buttons/closeButton.png');
+	width: 34px;
+	height: 34px;
+	top: -30px;
+	right: -30px;
+	z-index: 110;
+	cursor: pointer;
+
+}
+
+#page_overlay {
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	background: #222;
+	position: fixed;
+	width: 100%;
+	height: 150%;
+	top: 0;
+	left: 0;
+	padding: 0;
+	z-index:50;
+}
+
+#beta_overlay {
+filter: alpha(opacity=60);
+opacity: 0.6;
+position: fixed;
+width: 100%;
+height: 150%;
+top: 0;
+left: 0;
+padding: 0;
+z-index: 60;
+}
+
+#video_overlay .button {
+	margin-bottom: 5px;
+	padding: 8px 14px 10px 16px;
+	font-size: 16px;
+}
+
+.button .get_started {
+	padding-right: 18px;
+}
+
+.registerPopup {
+	width: 400px;
+	height: 430px;
+	padding-bottom: 20px;
+}
+
+.betaPopup {
+width: 400px;
+height: 276px;
+padding-bottom: 20px;
+}
+
+.articlePopup {
+	width: 735px;
+	height: 554px;
+	padding-bottom: 20px;
+}
+
+.launch_video {
+	cursor:pointer;
+}
+
+/* Styling of Social Popup box */
+
+div.social_list {
+font-weight: bold;
+height: 21px;
+width: 320px;
+float: left;
+text-align: left;
+padding-left: 16px;
+padding-top: 9px;
+}
+
+div.social_actions {
+	width:320px;
+	height:65px;
+	float:left;
+}
+
+div.social_action {
+	width:320px;
+	height:21px;
+	float:left;
+}
+
+
+div.social_title {
+	width: 234px;
+	height: 21px;
+	float: left;
+	font-weight: normal;
+	text-align: left;
+	padding-left: 15px;
+}
+
+div.social_date {
+	width:50px;
+	height:21px;
+	float:left;
+}
+
+div.social_delete {
+	background: url('/resources/images/buttons/small_cross.png') no-repeat scroll 0 0 transparent;
+	width:14px;
+	height:14px;
+	float:left;
+}
+
+div.social_delete:hover {
+	background-position:bottom;
+}
+
+
+

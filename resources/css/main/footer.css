@@ -1,0 +1,35 @@
+.footer {
+	height:100px;
+	width:950px;
+	padding-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.footerItems {
+	float: left;
+	font-size: 12px;
+	color: #3176A2;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0 0 0 15px;
+	text-shadow: 1px 1px 16px white;
+}
+
+.footerLinks {
+	color: #3176A2;
+	text-decoration:none;
+	font-weight: normal;
+}
+
+.copyright {
+	color: #8c8a8a !important;
+}
+
+.topBar {
+	float:left;
+	width:950px;
+	height:3px;
+	padding-top:15px;
+	background: url('../../images/main/bar.png') no-repeat;
+	background-position:center; 
+}

@@ -1,0 +1,83 @@
+	div.registerPopup {
+		height: 445px;
+	}
+	
+	div.signup_window {
+		width: 325px;
+		height: 308px;
+		margin: auto;
+		background-color: white;
+		margin-top: 20px;
+	} 
+	
+	div.email_signup {
+		width: 400px;
+		height: 200px;
+		float: left;
+	}
+	
+	div.signup_message {
+		font-family: 'Rouge Script', cursive;
+	    font-size: 45px;
+	    color: #561a1a;
+		margin-bottom: 0px;
+		width: 100%;
+		height: 55px;
+		float:left;
+	}
+	
+	div.form_or {
+		width: 100%;
+		height: 20px;
+		float: left;
+		font-size: 20px;
+		padding-top: 22px;
+		padding-bottom: 15px;
+		color: #777;
+		font-weight: normal;
+	}
+
+	
+	div.form_field {
+		width: 314px;
+		height: 38px;
+		float: left;
+		font-size: 18px;
+		padding-top: 0px;
+	}
+	
+	input {
+		color: #999;
+		height: 21px;
+		width: 184px;
+	
+		font-size: 18px;
+}
+	
+	
+	div.submit_button {
+		width: 314px;
+		height:40px;
+		float:left;
+		padding-top: 15px;
+	}
+	
+	#submit_button {
+		width: 200px;
+		height: 45px;
+		font-size: 21px;
+		font-weight: normal;
+	}
+	
+	.error {
+		font-size: 14px;
+		color: #9F1515;
+		width: 308px;
+		height: 30px;
+		float: left;
+		padding-top: 30px;
+	}
+	
+	.facebook_connect {
+		padding-bottom: 15px;
+	}

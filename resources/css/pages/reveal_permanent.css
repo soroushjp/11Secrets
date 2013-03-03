@@ -1,0 +1,81 @@
+/* Reveal CSS */
+
+div.articlePopup {
+	width: 640px !important;
+}
+
+div.article_envelop {
+	background: url('/resources/images/main/reveal_letter.png') no-repeat;
+	width:642px;
+	height:504px;
+	float:left;
+}
+
+div.article_img_peek {
+	width:200px;
+	float: left;
+	padding-lefT: 58px;
+	padding-top: 11px;
+	z-index: -5;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	/* for ie */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+div.article_news_title {
+	font-weight: bold;
+	font-family: times;
+	font-size: 19px;
+	width: 300px;
+	height: 47px;
+	float: right;
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(10deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	padding-top: 39px;
+	padding-right: 90px;
+	overflow: hidden;
+}
+
+div.invite_tag {
+	width: 286px;
+	height: 146px;
+	float: left;
+	padding-left: 180px;
+	padding-top: 187px;
+	text-align: left;
+}
+
+div.invite_text {
+	font-family: times;
+	font-weight: normal;
+	font-size: 33px;
+	width: 306px;
+	height: 37px;
+	color: #777;
+}
+
+div.invite_line {
+	height:3px;
+	width:274px;
+	padding-left:10px;
+	float:left;
+	background:#777;
+}
+
+div.social_button_pink {
+	width: 286px;
+	height: 60px;
+	float: left;
+	padding-top: 25px;
+	padding-left: 5px;
+}
+
+div.pink_button {
+	width:60px;
+	height:60px;
+	float:left;
+	padding-left: 7px;
+}

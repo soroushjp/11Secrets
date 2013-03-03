@@ -1,0 +1,9 @@
+htaccess*
+*.htaccess
+php_errors.log
+application/config/database.php
+application/config/facebook.php
+application/config/twitter.php
+application/config/config.php
+robots.txt
+fulltext
