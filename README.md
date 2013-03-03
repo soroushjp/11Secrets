@@ -1,5 +1,5 @@
-# 11Secrets.com Visual News Aggregator
-## By Soroush Pour and Fabio Berger ==
+## 11Secrets.com Visual News Aggregator
+### By Soroush Pour and Fabio Berger
 
 This is the source code for 11Secrets.com, a visual news aggregator for fashion and gossip news. Design and RSS Feeds can be customized. Articles formatted and pulled into DB using FullText RSS-to-JSON API.
 
