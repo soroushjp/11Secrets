@@ -5,4 +5,8 @@ This is the source code for 11Secrets.com, a visual news aggregator for fashion 
 
 Built using CodeIgniter framework with InnoDB MySQL DB.
 
-Various configuration files removed to obscure private information, but all other files are heere for the open source community to use.
+Some configuration files removed to hide private passwords and keys, but all other files are here for the open source community to use.
+
+Don't forget to add your own AWS public and private keys in application/controllers/s3transfer.php where the placeholders AWS_PUBLIC_KEY and AWS_SECRET_KEY have been placed.
+
+Contact at me AT soroushjp.com for questions or feature requests.
